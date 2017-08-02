@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    BackgroundColor="#127ac7"
+    x:Class="calendar2.Page1">
+
+
+   <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Spacing="20">
+
+          
+           <Label Text="Calendar"
+                FontSize="26" TextColor="White" 
+                HorizontalOptions="Center"/>
+           <Button Text="Sign In" TextColor="White" BackgroundColor="#1dabf0"/>
+           <Button Text="Sign Up" TextColor="White" BackgroundColor="#1dabf0"/>  
+
+
+            
+        </StackLayout>
+        
+	</ContentPage.Content>
+
+
+</ContentPage>
